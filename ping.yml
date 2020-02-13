@@ -1,0 +1,12 @@
+---
+- name: Check connectivity to managed node
+
+  hosts: all
+  gather_facts: no
+
+  tasks:
+
+  - name: Check connection
+    ping:
+
+## end.
